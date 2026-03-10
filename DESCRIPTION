@@ -1,0 +1,23 @@
+Package: hedleytools
+Title: Personalised R functions and libraries
+Version: 0.0.0.9000
+Authors@R: person("James", "Hedley", email = "james.hedley@sydney.edu.au", role = c("aut", "cre"))
+Description: Loads packages I commonly use, as well as some custom functions for day-to-day data wrangling, analysis, plotting etc.
+License: GPL-3
+Depends: R (>= 3.5)
+Imports: 
+    tidyverse,
+    janitor,
+    labelled,
+    lubridate,
+    stringr,
+    haven,
+    openxlsx,
+    readxl,
+    car,
+    pacman,
+    conflicted
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
