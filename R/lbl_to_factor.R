@@ -1,4 +1,5 @@
 # Function: Convert all labelled variables in a dataset to factors
+#' @export
 # Created by: James Hedley
 # Date created: 18th August 2025
 

@@ -1,4 +1,5 @@
 # Function: Generate a data dictionary as a tibble, just for labelled variables
+#' @export
 # Created by: James Hedley
 # Date created: 18th August 2025
 

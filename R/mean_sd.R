@@ -1,4 +1,5 @@
 # Function to summarise mean and SD for a given variable
+#' @export
 mean_sd <- function(data, var, 
                     dp = 0,
                     mean_dp = NULL, 

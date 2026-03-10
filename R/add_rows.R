@@ -1,4 +1,5 @@
 # Function to add blank rows at the top of a dataset (tibble). If done after group_by(), adds extra rows for each group
+#' @export
 add_rows <- function(df, rows = 1, position = "top", newvar = NULL) {
     group_vars <- df %>% group_vars()
       

@@ -1,4 +1,5 @@
 # Function to insert characters at a specified position within a string
+#' @export
 str_insert <- function(x, insert, after_position, skip_short = TRUE) {
   
   skip_short_missing <- missing(skip_short)  # TRUE if user didn't pass it

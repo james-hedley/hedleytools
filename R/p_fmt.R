@@ -1,4 +1,5 @@
 # Function: Format p-values to standard format (1 significant figure, up to 3 decimal places)
+#' @export
 # Created by: James Hedley
 # Date created: 18th August 2025
 

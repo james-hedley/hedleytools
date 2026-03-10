@@ -1,4 +1,5 @@
 # Function to format numbers
+#' @export
 n_fmt <- function(x, dp = 0, sep = ",", round_direction = c("nearest", "up", "down")) {
   # Ensure numeric
   if (!is.numeric(x)) stop("x must be numeric")

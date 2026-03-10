@@ -1,4 +1,5 @@
 # Function to multiply effect sizes from a regression model, and adjust the estimate and CI appropriately
+#' @export
 effect_multiple <- function(model, effect, multiple, exp = FALSE, alpha = 0.05, dp = 2) {
   est <- coef(model)[effect]
   se  <- sqrt(vcov(model)[effect, effect])

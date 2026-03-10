@@ -1,4 +1,5 @@
 # Calculate global p-value from coefficients and their corresponding variance/covariance matrix
+#' @export
 global_p_calc <- function(coef, V, varname = NULL, coef_index = NULL) {
   # Error messages
   if(is.null(varname) & is.null(coef_index)) stop("Either a factor variable name or coefficinet index(es) must be specified")

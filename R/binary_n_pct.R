@@ -1,4 +1,5 @@
 # Function to summarise count and percentage for a given binary variable
+#' @export
 binary_n_pct <- function(data, var, dp = 0, sep = ",", n_name = "col1", pct_name = "col2", overall = FALSE) {
   
   group_vars <- group_vars(data)

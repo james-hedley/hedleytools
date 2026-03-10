@@ -1,4 +1,5 @@
 # Function to load CODE lookup tables - SEIFA score by ABS area
+#' @export
 load_lookup_tables <- function() {
   pkgloc <- file.path(rds, "PRJ-CODE/Shared code/Lookup tables")
   

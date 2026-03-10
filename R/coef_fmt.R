@@ -1,4 +1,5 @@
 # Function to format regression results
+#' @export
 ## For linear-scale results (mean difference, % change etc.), report to 1dp, or 1 significant figure if <0.05
 ## For log-scale results (OR, HR, IRR etc.), report to 2dp (or 1 significant figure if <0.005)
 

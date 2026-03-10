@@ -1,4 +1,5 @@
 # Function to summarise median and IQI for a given variable
+#' @export
 median_iqi <- function(data, var, 
                        dp = 0,
                        median_dp = NULL, 

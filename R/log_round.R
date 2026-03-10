@@ -1,4 +1,5 @@
 # Function: Round a number to the nearest 'nice' number on a log base 10 scale
+#' @export
 # Created by: James Hedley
 # Date created: 18th August 2025
 

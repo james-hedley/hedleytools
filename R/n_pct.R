@@ -1,4 +1,5 @@
 # Function to summarise count and percentage for a given categorical variable
+#' @export
 n_pct <- function(data, var, 
                   dp = 0,
                   sep = ",",

@@ -1,4 +1,5 @@
 # Function to format percentages (but optionally add required decimal places if they are really small)
+#' @export
 pct_fmt <- function(x, decimal = TRUE, dp = 0, symbol = "", brackets = FALSE) {
   # Ensure numeric
   if (!is.numeric(x)) stop("x must be numeric")

@@ -1,4 +1,5 @@
 # Function to create a table 1 of baseline characteristics
+#' @export
 create_table1 <- function(data, ..., overall = FALSE) {
   args <- list(...)
   tbl_list <- list()

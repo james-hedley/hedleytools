@@ -1,4 +1,5 @@
 # Function to create a blank row in a table
+#' @export
 header_row <- function(data, n_name = "col1", pct_name = "col2", overall = FALSE) {
 
   group_vars <- group_vars(data)

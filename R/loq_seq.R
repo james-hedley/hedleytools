@@ -1,4 +1,5 @@
 # Function: Create a sequence of 'nice' numbers on a log 10 scale
+#' @export
 # Created by: James Hedley
 # Date created: 18th August 2025
 

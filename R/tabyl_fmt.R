@@ -1,4 +1,5 @@
 # Function to create a neatly formatted 2-way table
+#' @export
 tabyl_fmt <- function(data, ..., denominator = "row", dp = 0, droplevels = TRUE) {
   
   # Check if one-way or two-way table

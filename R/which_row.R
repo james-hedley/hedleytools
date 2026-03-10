@@ -1,4 +1,5 @@
 # Function to determine which rows of a dataset meet specified conditions
+#' @export
 which_row <- function(data, ...) {
   # Capture the logical conditions
   conditions <- enquos(...)

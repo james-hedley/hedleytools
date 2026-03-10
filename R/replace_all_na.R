@@ -1,4 +1,5 @@
 # Function to replace all NA values in character variables with a specified string
+#' @export
 replace_all_na <- function(df, replace = NULL, replace_num = 0, replace_chr = "") {
   if(is.null(replace)) {
     df %>%

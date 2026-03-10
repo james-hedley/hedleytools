@@ -1,4 +1,5 @@
 # Function to export data to a specific worksheet within an excel workbook 
+#' @export
 export_excel <- function(x, file, sheet = "Sheet1") {
   # Check if workbook exists
   if (file.exists(file)) {

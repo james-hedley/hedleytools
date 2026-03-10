@@ -1,4 +1,5 @@
 # Function to summarise total and row percentage for grouped data
+#' @export
 total_rowpct <- function(data, 
                          dp = 0,
                          sep = ",",

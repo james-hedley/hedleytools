@@ -1,4 +1,5 @@
 # Load packages (and install them if not already installed) ----
+#' @export
 load_packages <- function() {
   
   ## pacman::p_load installs packages if not already installed, then loads them

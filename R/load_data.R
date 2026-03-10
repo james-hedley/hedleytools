@@ -1,4 +1,5 @@
 # Function to load an object from a .RData file, and assign it to a specified name
+#' @export
 load_data <- function(file) {
   tmp <- new.env()
   objnames <- load(file, envir = tmp)   # load into temp env

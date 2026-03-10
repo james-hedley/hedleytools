@@ -1,4 +1,5 @@
 # Function to create a new variable with the original numeric Stata coding (after converting labelled variables to factors)
+#' @export
 lbl_values <- function(data, ..., suffix = "_val", after_var = TRUE) {
   # must have dictionary
   if (is.null(attr(data, "value_labels"))) {

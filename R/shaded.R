@@ -1,4 +1,5 @@
 # Function: Determine equivalent colour when a specified colour is set to specified transparency
+#' @export
 # Created by: James Hedley
 # Date created: 18th August 2025
 

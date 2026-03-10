@@ -1,4 +1,5 @@
 # Function to read in REDCap data that has been exported in R format
+#' @export
 # There should be two files, a .csv file and a .r file
 read_redcap <- function(file) {
   temp_env <- new.env()

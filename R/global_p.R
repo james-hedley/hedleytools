@@ -1,4 +1,5 @@
 # Function to extract global p-values from a model object
+#' @export
 global_p <- function(model) {
   car::Anova(model) %>% 
     broom::tidy() %>%

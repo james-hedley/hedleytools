@@ -1,4 +1,5 @@
 # Function to format regression model output correctly after broom::tidy()
+#' @export
 tidy_fmt <- function(model_object, dp = 2, ...) {
   model_object %>%
     tidy(...) %>%

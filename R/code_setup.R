@@ -1,4 +1,5 @@
 # Function to run code_setup.R script
+#' @export
 code_setup <- function() {
   source(file.path(unname(ifelse(Sys.info()["sysname"]=="Windows",
                                  "//shared.sydney.edu.au/research-data",
