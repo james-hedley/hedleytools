@@ -68,6 +68,9 @@ load_packages <- function() {
   
   ## For ABS API
   p_load(readabs)
+
+  ## For Shiny app development
+  p_load(shiny)
   
   ## For handling naming conflicts
   p_load(conflicted)
