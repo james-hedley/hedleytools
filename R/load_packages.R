@@ -30,6 +30,7 @@ load_packages <- function() {
   p_load(grDevices)
   p_load(ggplotify)
   p_load(ggh4x) 
+  p_load(scales)
   
   ## Tables
   p_load(gtsummary)
@@ -60,6 +61,7 @@ load_packages <- function() {
   
   ## Simulation tools
   p_load(TeachingDemos)
+  p_load(truncnorm)
   
   ## Meta-analysis
   p_load(metafor)
